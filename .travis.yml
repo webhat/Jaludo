@@ -12,7 +12,7 @@ before_script:
   - ./propel-gen insert-sql
 
 
-script: phpunit --configuration phpunit.xml --coverage-text
+script: phpunit 
 
 branches:
   only:
