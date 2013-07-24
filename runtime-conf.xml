@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <propel>
+        <datasources default="jaludo">
+            <datasource id="jaludo">
+                <adapter>mysql</adapter> <!-- sqlite, mysql, mssql, oracle, or pgsql -->
+                <connection>
+                    <dsn>mysql:host=localhost;dbname=jaludo</dsn>
+                    <user>root</user>
+                    <password>mysql-l33t</password>
+                </connection>
+            </datasource>
+        </datasources>
+    </propel>
+</config>

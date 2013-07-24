@@ -1,0 +1,10 @@
+<div ng-controller="ScoringCtrl">
+    <span ng-repeat="(game, scorelist) in scores">
+        <h2>{{game}}</h2>
+        <ul>
+            <li ng-repeat="(user, score) in scorelist | orderBy: 'score.score':reverse">
+                <span>{{score.user}}</span> scored <span>{{score.score}}</span><br/><span>{{score.msg}}</span>
+            </li>
+        </ul>
+    </span>
+</div>

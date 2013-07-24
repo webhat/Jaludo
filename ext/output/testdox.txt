@@ -1,0 +1,11 @@
+jaludo\score\tests\Game
+ [x] Game
+
+jaludo\score\tests\Score
+ [x] Set score
+ [x] Get high scores
+ [x] Get high scores today
+
+jaludo\score\tests\Stub
+ [x] Set
+

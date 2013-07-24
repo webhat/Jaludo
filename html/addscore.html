@@ -1,0 +1,10 @@
+<div ng-controller="SetScoringCtrl">
+    <h2>{{game}}</h2>
+
+    <form name="setscore">
+        <label>Username: <input type="text" ng-model="form.user" name="username"/></label>
+        <label>Score: <input type="text" ng-model="form.score" name="score"/></label>
+
+        <button ng-click="save()"></button>
+    </form>
+</div>
