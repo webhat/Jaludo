@@ -49,9 +49,9 @@ class Score
             ->filterByUserid($this->user->getId())->findOne();
 
         $ret = array(
-            score => $this->lb->getScore(),
-            game => $this->game->getName(),
-            user => $user
+            "score" => $this->lb->getScore(),
+            "game" => $this->game->getName(),
+            "user" => $user
         );
 
         return $ret;
