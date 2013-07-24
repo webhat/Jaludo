@@ -58,9 +58,9 @@ class ScoreTest extends \PHPUnit_Framework_TestCase
     {
         $id = $this->game->getId();
         $expected = array(
-            score => 20,
-            game => $this->game_name,
-            user => $this->user_name1
+            "score" => 20,
+            "game" => $this->game_name,
+            "user" => $this->user_name1
         );
         $this->score->setScore($expected);
 
@@ -74,14 +74,14 @@ class ScoreTest extends \PHPUnit_Framework_TestCase
     {
         $id = $this->game->getId();
         $score1 = array(
-            score => 20,
-            game => $this->game_name,
-            user => $this->user_name1
+            "score" => 20,
+            "game" => $this->game_name,
+            "user" => $this->user_name1
         );
         $score2 = array(
-            score => 21,
-            game => $this->game_name,
-            user => $this->user_name2
+            "score" => 21,
+            "game" => $this->game_name,
+            "user" => $this->user_name2
         );
         $this->score->setScore($score1);
         $this->score->setScore($score2);
@@ -103,16 +103,15 @@ class ScoreTest extends \PHPUnit_Framework_TestCase
 
     public function testGetHighScoresToday()
     {
-        $id = $this->game->getId();
         $score1 = array(
-            score => 20,
-            game => $this->game_name,
-            user => $this->user_name1
+            "score" => 20,
+            "game" => $this->game_name,
+            "user" => $this->user_name1
         );
         $score2 = array(
-            score => 21,
-            game => $this->game_name,
-            user => $this->user_name2
+            "score" => 21,
+            "game" => $this->game_name,
+            "user" => $this->user_name2
         );
         $this->score->setScore($score1);
         $this->score->setScore($score2);
