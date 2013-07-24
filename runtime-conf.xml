@@ -6,8 +6,8 @@
                 <adapter>mysql</adapter> <!-- sqlite, mysql, mssql, oracle, or pgsql -->
                 <connection>
                     <dsn>mysql:host=localhost;dbname=jaludo</dsn>
-                    <user>root</user>
-                    <password>mysql-l33t</password>
+                    <user>travis</user>
+                    <password></password>
                 </connection>
             </datasource>
         </datasources>
