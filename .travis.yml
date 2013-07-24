@@ -4,9 +4,15 @@ php:
   - 5.3
   - 5.4
 
+before_script:
+  - composer install
+  - mysql -e 'create database jaludo;'
+  - ./propel-gen
+  - ./propel-gen insert-sql
+
+
 script: phpunit --configuration phpunit.xml --coverage-text
 
 branches:
   only:
-    - develop
     - master
