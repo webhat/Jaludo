@@ -1,8 +1,13 @@
 <?php
 
-require_once('../bootstrap.php');
+if(file_exists('../bootstrap.php'))
+    require_once('../bootstrap.php');
 
-if($_GET['apiKey'] != "testUpdate") {
+if(file_exists('./bootstrap.php'))
+    require_once('./bootstrap.php');
+
+
+if (!isset($_GET['apiKey']) || $_GET['apiKey'] != "testUpdate") {
     header("401 Access Denied");
     exit;
 }

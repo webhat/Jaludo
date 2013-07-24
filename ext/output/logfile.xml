@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="JaludoScoreTest" tests="5" assertions="5" failures="0" errors="0" time="0.048060">
-    <testsuite name="jaludo\score\tests\GameTest" file="/Users/danielcrompton/Development/jaludo/JaludoScoreServer/tests/GameTest.php" namespace="jaludo\score\tests" fullPackage="jaludo.score.tests" tests="1" assertions="1" failures="0" errors="0" time="0.019615">
-      <testcase name="testGame" class="jaludo\score\tests\GameTest" file="/Users/danielcrompton/Development/jaludo/JaludoScoreServer/tests/GameTest.php" line="32" assertions="1" time="0.019615"/>
+  <testsuite name="JaludoScoreTest" tests="5" assertions="5" failures="0" errors="0" time="0.258101">
+    <testsuite name="jaludo\score\tests\GameTest" file="/Users/danielcrompton/Development/jaludo/JaludoScoreServer/tests/GameTest.php" namespace="jaludo\score\tests" fullPackage="jaludo.score.tests" tests="1" assertions="1" failures="0" errors="0" time="0.067512">
+      <testcase name="testGame" class="jaludo\score\tests\GameTest" file="/Users/danielcrompton/Development/jaludo/JaludoScoreServer/tests/GameTest.php" line="32" assertions="1" time="0.067512"/>
     </testsuite>
-    <testsuite name="jaludo\score\tests\ScoreTest" file="/Users/danielcrompton/Development/jaludo/JaludoScoreServer/tests/ScoreTest.php" namespace="jaludo\score\tests" fullPackage="jaludo.score.tests" tests="3" assertions="3" failures="0" errors="0" time="0.027861">
-      <testcase name="testSetScore" class="jaludo\score\tests\ScoreTest" file="/Users/danielcrompton/Development/jaludo/JaludoScoreServer/tests/ScoreTest.php" line="57" assertions="1" time="0.016240"/>
-      <testcase name="testGetHighScores" class="jaludo\score\tests\ScoreTest" file="/Users/danielcrompton/Development/jaludo/JaludoScoreServer/tests/ScoreTest.php" line="73" assertions="1" time="0.005861"/>
-      <testcase name="testGetHighScoresToday" class="jaludo\score\tests\ScoreTest" file="/Users/danielcrompton/Development/jaludo/JaludoScoreServer/tests/ScoreTest.php" line="104" assertions="1" time="0.005760"/>
+    <testsuite name="jaludo\score\tests\ScoreTest" file="/Users/danielcrompton/Development/jaludo/JaludoScoreServer/tests/ScoreTest.php" namespace="jaludo\score\tests" fullPackage="jaludo.score.tests" tests="3" assertions="3" failures="0" errors="0" time="0.186755">
+      <testcase name="testSetScore" class="jaludo\score\tests\ScoreTest" file="/Users/danielcrompton/Development/jaludo/JaludoScoreServer/tests/ScoreTest.php" line="57" assertions="1" time="0.070508"/>
+      <testcase name="testGetHighScores" class="jaludo\score\tests\ScoreTest" file="/Users/danielcrompton/Development/jaludo/JaludoScoreServer/tests/ScoreTest.php" line="73" assertions="1" time="0.059824"/>
+      <testcase name="testGetHighScoresToday" class="jaludo\score\tests\ScoreTest" file="/Users/danielcrompton/Development/jaludo/JaludoScoreServer/tests/ScoreTest.php" line="104" assertions="1" time="0.056423"/>
     </testsuite>
-    <testsuite name="jaludo\score\tests\StubTest" file="/Users/danielcrompton/Development/jaludo/JaludoScoreServer/tests/StubTest.php" namespace="jaludo\score\tests" fullPackage="jaludo.score.tests" tests="1" assertions="1" failures="0" errors="0" time="0.000584">
-      <testcase name="testSet" class="jaludo\score\tests\StubTest" file="/Users/danielcrompton/Development/jaludo/JaludoScoreServer/tests/StubTest.php" line="22" assertions="1" time="0.000584"/>
+    <testsuite name="jaludo\score\tests\StubTest" file="/Users/danielcrompton/Development/jaludo/JaludoScoreServer/tests/StubTest.php" namespace="jaludo\score\tests" fullPackage="jaludo.score.tests" tests="1" assertions="1" failures="0" errors="0" time="0.003834">
+      <testcase name="testSet" class="jaludo\score\tests\StubTest" file="/Users/danielcrompton/Development/jaludo/JaludoScoreServer/tests/StubTest.php" line="22" assertions="1" time="0.003834"/>
     </testsuite>
   </testsuite>
 </testsuites>
